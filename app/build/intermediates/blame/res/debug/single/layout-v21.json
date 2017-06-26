@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/lucas/Área de Trabalho/HorarioFacil-master/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/home/lucas/.android/build-cache/ead81e66204b9cc49399bc87ec7d7d96daa1e85e/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/home/lucas/Área de Trabalho/HorarioFacil-master/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/home/lucas/.android/build-cache/ead81e66204b9cc49399bc87ec7d7d96daa1e85e/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/lucas/Área de Trabalho/HorarioFacil-master/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/home/lucas/.android/build-cache/ead81e66204b9cc49399bc87ec7d7d96daa1e85e/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/home/lucas/Área de Trabalho/HorarioFacil-master/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/home/lucas/.android/build-cache/ead81e66204b9cc49399bc87ec7d7d96daa1e85e/output/res/layout-v21/notification_template_icon_group.xml"
+    }
+]

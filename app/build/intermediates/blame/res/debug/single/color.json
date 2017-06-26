@@ -1,0 +1,90 @@
+[
+    {
+        "merged": "/home/lucas/Área de Trabalho/HorarioFacil-master/app/build/intermediates/res/merged/debug/color/design_tint_password_toggle.xml",
+        "source": "/home/lucas/.android/build-cache/da6d59aea91e7ae6b93fd0f44f1a07fd71ad9fe9/output/res/color/design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "/home/lucas/Área de Trabalho/HorarioFacil-master/app/build/intermediates/res/merged/debug/color/switch_thumb_material_light.xml",
+        "source": "/home/lucas/.android/build-cache/ead81e66204b9cc49399bc87ec7d7d96daa1e85e/output/res/color/switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "/home/lucas/Área de Trabalho/HorarioFacil-master/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
+        "source": "/home/lucas/.android/build-cache/ead81e66204b9cc49399bc87ec7d7d96daa1e85e/output/res/color/abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "/home/lucas/Área de Trabalho/HorarioFacil-master/app/build/intermediates/res/merged/debug/color/abc_btn_colored_text_material.xml",
+        "source": "/home/lucas/.android/build-cache/ead81e66204b9cc49399bc87ec7d7d96daa1e85e/output/res/color/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/home/lucas/Área de Trabalho/HorarioFacil-master/app/build/intermediates/res/merged/debug/color/abc_tint_edittext.xml",
+        "source": "/home/lucas/.android/build-cache/ead81e66204b9cc49399bc87ec7d7d96daa1e85e/output/res/color/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/home/lucas/Área de Trabalho/HorarioFacil-master/app/build/intermediates/res/merged/debug/color/abc_tint_default.xml",
+        "source": "/home/lucas/.android/build-cache/ead81e66204b9cc49399bc87ec7d7d96daa1e85e/output/res/color/abc_tint_default.xml"
+    },
+    {
+        "merged": "/home/lucas/Área de Trabalho/HorarioFacil-master/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_dark.xml",
+        "source": "/home/lucas/.android/build-cache/ead81e66204b9cc49399bc87ec7d7d96daa1e85e/output/res/color/abc_hint_foreground_material_dark.xml"
+    },
+    {
+        "merged": "/home/lucas/Área de Trabalho/HorarioFacil-master/app/build/intermediates/res/merged/debug/color/abc_tint_switch_thumb.xml",
+        "source": "/home/lucas/.android/build-cache/ead81e66204b9cc49399bc87ec7d7d96daa1e85e/output/res/color/abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "/home/lucas/Área de Trabalho/HorarioFacil-master/app/build/intermediates/res/merged/debug/color/abc_btn_colored_borderless_text_material.xml",
+        "source": "/home/lucas/.android/build-cache/ead81e66204b9cc49399bc87ec7d7d96daa1e85e/output/res/color/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/home/lucas/Área de Trabalho/HorarioFacil-master/app/build/intermediates/res/merged/debug/color/abc_tint_switch_track.xml",
+        "source": "/home/lucas/.android/build-cache/ead81e66204b9cc49399bc87ec7d7d96daa1e85e/output/res/color/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/home/lucas/Área de Trabalho/HorarioFacil-master/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
+        "source": "/home/lucas/.android/build-cache/ead81e66204b9cc49399bc87ec7d7d96daa1e85e/output/res/color/abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "/home/lucas/Área de Trabalho/HorarioFacil-master/app/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
+        "source": "/home/lucas/.android/build-cache/ead81e66204b9cc49399bc87ec7d7d96daa1e85e/output/res/color/switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "/home/lucas/Área de Trabalho/HorarioFacil-master/app/build/intermediates/res/merged/debug/color/abc_tint_btn_checkable.xml",
+        "source": "/home/lucas/.android/build-cache/ead81e66204b9cc49399bc87ec7d7d96daa1e85e/output/res/color/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/home/lucas/Área de Trabalho/HorarioFacil-master/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
+        "source": "/home/lucas/.android/build-cache/ead81e66204b9cc49399bc87ec7d7d96daa1e85e/output/res/color/abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "/home/lucas/Área de Trabalho/HorarioFacil-master/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
+        "source": "/home/lucas/.android/build-cache/ead81e66204b9cc49399bc87ec7d7d96daa1e85e/output/res/color/abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "/home/lucas/Área de Trabalho/HorarioFacil-master/app/build/intermediates/res/merged/debug/color/abc_tint_spinner.xml",
+        "source": "/home/lucas/.android/build-cache/ead81e66204b9cc49399bc87ec7d7d96daa1e85e/output/res/color/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/home/lucas/Área de Trabalho/HorarioFacil-master/app/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",
+        "source": "/home/lucas/.android/build-cache/ead81e66204b9cc49399bc87ec7d7d96daa1e85e/output/res/color/abc_search_url_text.xml"
+    },
+    {
+        "merged": "/home/lucas/Área de Trabalho/HorarioFacil-master/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_light.xml",
+        "source": "/home/lucas/.android/build-cache/ead81e66204b9cc49399bc87ec7d7d96daa1e85e/output/res/color/abc_hint_foreground_material_light.xml"
+    },
+    {
+        "merged": "/home/lucas/Área de Trabalho/HorarioFacil-master/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_light.xml",
+        "source": "/home/lucas/.android/build-cache/ead81e66204b9cc49399bc87ec7d7d96daa1e85e/output/res/color/abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "/home/lucas/Área de Trabalho/HorarioFacil-master/app/build/intermediates/res/merged/debug/color/abc_tint_seek_thumb.xml",
+        "source": "/home/lucas/.android/build-cache/ead81e66204b9cc49399bc87ec7d7d96daa1e85e/output/res/color/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/home/lucas/Área de Trabalho/HorarioFacil-master/app/build/intermediates/res/merged/debug/color/design_error.xml",
+        "source": "/home/lucas/.android/build-cache/da6d59aea91e7ae6b93fd0f44f1a07fd71ad9fe9/output/res/color/design_error.xml"
+    },
+    {
+        "merged": "/home/lucas/Área de Trabalho/HorarioFacil-master/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_dark.xml",
+        "source": "/home/lucas/.android/build-cache/ead81e66204b9cc49399bc87ec7d7d96daa1e85e/output/res/color/abc_primary_text_disable_only_material_dark.xml"
+    }
+]

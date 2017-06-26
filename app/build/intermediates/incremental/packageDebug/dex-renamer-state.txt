@@ -1,0 +1,7 @@
+#Mon Jun 26 18:41:18 BRT 2017
+base.0=/home/lucas/Área de Trabalho/HorarioFacil-master/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_3abd492d2422a12369e868d2bdfcd9812ae47c0c
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/home/lucas/Área de Trabalho/HorarioFacil-master/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_12d85986c1dca1730c9d32756c9c1434d7c4303d/classes.dex
+base.1=/home/lucas/Área de Trabalho/HorarioFacil-master/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_12d85986c1dca1730c9d32756c9c1434d7c4303d
+file.0=/home/lucas/Área de Trabalho/HorarioFacil-master/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_3abd492d2422a12369e868d2bdfcd9812ae47c0c/classes.dex
