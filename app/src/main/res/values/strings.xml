@@ -19,4 +19,25 @@
     <string name="error_confirmar_senha">Senha e Confirmar senha diferentes</string>
     <string name="error_field_required">Campo Requerido</string>
     <string name="name_cadastro">Cadastro</string>
+
+    <!--Strings relates to main-->
+    <string-array name="header_titles">
+        <item>Disciplinas cursadas</item>
+        <item>Disciplinas disponíveis</item>
+        <item>Disciplinas a cursar</item>
+    </string-array>
+    <string-array name="cursadas">
+        <item>Calculo</item>
+        <item>Desenvolvimento de software</item>
+        <item>Computação basica</item>
+    </string-array>
+    <string-array name="disponiveis">
+        <item>Calculo 2</item>
+        <item>Orientaçao a objetos</item>
+    </string-array>
+    <string-array name="acursar">
+        <item>Calculo 3</item>
+        <item>Fisica</item>
+        <item>Matematica discreta</item>
+    </string-array>
 </resources>

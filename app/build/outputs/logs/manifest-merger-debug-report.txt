@@ -1,0 +1,121 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/lucas/Área de Trabalho/HorarioFacil-master/app/src/main/AndroidManifest.xml:2:1-44:12
+	package
+		ADDED from /home/lucas/Área de Trabalho/HorarioFacil-master/app/src/main/AndroidManifest.xml:3:5-52
+		INJECTED from /home/lucas/Área de Trabalho/HorarioFacil-master/app/src/main/AndroidManifest.xml
+		INJECTED from /home/lucas/Área de Trabalho/HorarioFacil-master/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/lucas/Área de Trabalho/HorarioFacil-master/app/src/main/AndroidManifest.xml
+		INJECTED from /home/lucas/Área de Trabalho/HorarioFacil-master/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/lucas/Área de Trabalho/HorarioFacil-master/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /home/lucas/Área de Trabalho/HorarioFacil-master/app/src/main/AndroidManifest.xml
+		INJECTED from /home/lucas/Área de Trabalho/HorarioFacil-master/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from /home/lucas/Área de Trabalho/HorarioFacil-master/app/src/main/AndroidManifest.xml:6:5-71
+	android:name
+		ADDED from /home/lucas/Área de Trabalho/HorarioFacil-master/app/src/main/AndroidManifest.xml:6:22-68
+uses-permission#android.permission.READ_PROFILE
+ADDED from /home/lucas/Área de Trabalho/HorarioFacil-master/app/src/main/AndroidManifest.xml:7:5-71
+	android:name
+		ADDED from /home/lucas/Área de Trabalho/HorarioFacil-master/app/src/main/AndroidManifest.xml:7:22-68
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /home/lucas/Área de Trabalho/HorarioFacil-master/app/src/main/AndroidManifest.xml:8:5-72
+	android:name
+		ADDED from /home/lucas/Área de Trabalho/HorarioFacil-master/app/src/main/AndroidManifest.xml:8:22-69
+application
+ADDED from /home/lucas/Área de Trabalho/HorarioFacil-master/app/src/main/AndroidManifest.xml:10:5-42:19
+MERGED from [com.android.support:design:25.3.1] /home/lucas/.android/build-cache/da6d59aea91e7ae6b93fd0f44f1a07fd71ad9fe9/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/lucas/.android/build-cache/ead81e66204b9cc49399bc87ec7d7d96daa1e85e/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/lucas/.android/build-cache/65237b66bce609a63679e246ebd1c2bd810b504c/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/lucas/.android/build-cache/fe20d9afaed19919d435a5a1babe4f92d74946e9/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] /home/lucas/.android/build-cache/891ec231d5589279ea09bcb3b69f19d26683f1fe/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:25.3.1] /home/lucas/.android/build-cache/f4659630f968de9a3545f4d26596304f2e179cba/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /home/lucas/.android/build-cache/6240c3bc9c25f82b11b2ca45ac417b0f5e3ac980/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/lucas/.android/build-cache/593e14a287f5cffc6698fe9d8bcc911d193ec408/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/lucas/.android/build-cache/c55bc76e7dcbd8d124cfff88defa50d2df805f3e/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/lucas/.android/build-cache/9dc59ad6885218185a0fc91bd49a898f00ec8ad3/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /home/lucas/.android/build-cache/7cc8ad68203f6882db1320a72e681ab4eeb23b73/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/lucas/.android/build-cache/4168d429c0d1bb38e154e8b2ba982bda077183c3/output/AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from /home/lucas/Área de Trabalho/HorarioFacil-master/app/src/main/AndroidManifest.xml:13:9-41
+	android:supportsRtl
+		ADDED from /home/lucas/Área de Trabalho/HorarioFacil-master/app/src/main/AndroidManifest.xml:15:9-35
+	android:roundIcon
+		ADDED from /home/lucas/Área de Trabalho/HorarioFacil-master/app/src/main/AndroidManifest.xml:14:9-54
+	android:allowBackup
+		ADDED from /home/lucas/Área de Trabalho/HorarioFacil-master/app/src/main/AndroidManifest.xml:11:9-35
+	android:icon
+		ADDED from /home/lucas/Área de Trabalho/HorarioFacil-master/app/src/main/AndroidManifest.xml:12:9-43
+	android:theme
+		ADDED from /home/lucas/Área de Trabalho/HorarioFacil-master/app/src/main/AndroidManifest.xml:16:9-40
+activity#com.android.horariofacil.horariofacil.LoginActivity
+ADDED from /home/lucas/Área de Trabalho/HorarioFacil-master/app/src/main/AndroidManifest.xml:17:9-25:20
+	android:label
+		ADDED from /home/lucas/Área de Trabalho/HorarioFacil-master/app/src/main/AndroidManifest.xml:19:13-45
+	android:name
+		ADDED from /home/lucas/Área de Trabalho/HorarioFacil-master/app/src/main/AndroidManifest.xml:18:13-42
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/lucas/Área de Trabalho/HorarioFacil-master/app/src/main/AndroidManifest.xml:20:13-24:29
+action#android.intent.action.MAIN
+ADDED from /home/lucas/Área de Trabalho/HorarioFacil-master/app/src/main/AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from /home/lucas/Área de Trabalho/HorarioFacil-master/app/src/main/AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/lucas/Área de Trabalho/HorarioFacil-master/app/src/main/AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from /home/lucas/Área de Trabalho/HorarioFacil-master/app/src/main/AndroidManifest.xml:23:27-74
+activity#com.android.horariofacil.horariofacil.CadastroActivity
+ADDED from /home/lucas/Área de Trabalho/HorarioFacil-master/app/src/main/AndroidManifest.xml:26:9-63
+	android:name
+		ADDED from /home/lucas/Área de Trabalho/HorarioFacil-master/app/src/main/AndroidManifest.xml:26:19-51
+activity#com.android.horariofacil.horariofacil.MateriaActivity
+ADDED from /home/lucas/Área de Trabalho/HorarioFacil-master/app/src/main/AndroidManifest.xml:27:9-33:20
+	android:name
+		ADDED from /home/lucas/Área de Trabalho/HorarioFacil-master/app/src/main/AndroidManifest.xml:27:19-50
+activity#com.android.horariofacil.horariofacil.MainActivity
+ADDED from /home/lucas/Área de Trabalho/HorarioFacil-master/app/src/main/AndroidManifest.xml:34:9-41:20
+	android:name
+		ADDED from /home/lucas/Área de Trabalho/HorarioFacil-master/app/src/main/AndroidManifest.xml:35:13-41
+uses-sdk
+INJECTED from /home/lucas/Área de Trabalho/HorarioFacil-master/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:25.3.1] /home/lucas/.android/build-cache/da6d59aea91e7ae6b93fd0f44f1a07fd71ad9fe9/output/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/lucas/.android/build-cache/ead81e66204b9cc49399bc87ec7d7d96daa1e85e/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/lucas/.android/build-cache/65237b66bce609a63679e246ebd1c2bd810b504c/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/lucas/.android/build-cache/fe20d9afaed19919d435a5a1babe4f92d74946e9/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/lucas/.android/build-cache/94b8d48ada2f6414d0fe59510a3efff15141f1aa/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] /home/lucas/.android/build-cache/891ec231d5589279ea09bcb3b69f19d26683f1fe/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.3.1] /home/lucas/.android/build-cache/f4659630f968de9a3545f4d26596304f2e179cba/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] /home/lucas/.android/build-cache/6240c3bc9c25f82b11b2ca45ac417b0f5e3ac980/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/lucas/.android/build-cache/593e14a287f5cffc6698fe9d8bcc911d193ec408/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/lucas/.android/build-cache/c55bc76e7dcbd8d124cfff88defa50d2df805f3e/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/lucas/.android/build-cache/9dc59ad6885218185a0fc91bd49a898f00ec8ad3/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] /home/lucas/.android/build-cache/7cc8ad68203f6882db1320a72e681ab4eeb23b73/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/lucas/.android/build-cache/4168d429c0d1bb38e154e8b2ba982bda077183c3/output/AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] /home/lucas/.android/build-cache/da6d59aea91e7ae6b93fd0f44f1a07fd71ad9fe9/output/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /home/lucas/Área de Trabalho/HorarioFacil-master/app/src/main/AndroidManifest.xml
+		INJECTED from /home/lucas/Área de Trabalho/HorarioFacil-master/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/lucas/Área de Trabalho/HorarioFacil-master/app/src/main/AndroidManifest.xml
+		INJECTED from /home/lucas/Área de Trabalho/HorarioFacil-master/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] /home/lucas/.android/build-cache/da6d59aea91e7ae6b93fd0f44f1a07fd71ad9fe9/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/lucas/.android/build-cache/ead81e66204b9cc49399bc87ec7d7d96daa1e85e/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/lucas/.android/build-cache/65237b66bce609a63679e246ebd1c2bd810b504c/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/lucas/.android/build-cache/fe20d9afaed19919d435a5a1babe4f92d74946e9/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/lucas/.android/build-cache/94b8d48ada2f6414d0fe59510a3efff15141f1aa/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] /home/lucas/.android/build-cache/891ec231d5589279ea09bcb3b69f19d26683f1fe/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] /home/lucas/.android/build-cache/f4659630f968de9a3545f4d26596304f2e179cba/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /home/lucas/.android/build-cache/6240c3bc9c25f82b11b2ca45ac417b0f5e3ac980/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/lucas/.android/build-cache/593e14a287f5cffc6698fe9d8bcc911d193ec408/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/lucas/.android/build-cache/c55bc76e7dcbd8d124cfff88defa50d2df805f3e/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/lucas/.android/build-cache/9dc59ad6885218185a0fc91bd49a898f00ec8ad3/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] /home/lucas/.android/build-cache/7cc8ad68203f6882db1320a72e681ab4eeb23b73/output/AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.1] /home/lucas/.android/build-cache/da6d59aea91e7ae6b93fd0f44f1a07fd71ad9fe9/output/AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] /home/lucas/.android/build-cache/da6d59aea91e7ae6b93fd0f44f1a07fd71ad9fe9/output/AndroidManifest.xml:26:9-47
