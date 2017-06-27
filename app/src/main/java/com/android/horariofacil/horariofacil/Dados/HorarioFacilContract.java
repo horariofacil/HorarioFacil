@@ -28,4 +28,17 @@ public class HorarioFacilContract {
 
     }
 
+    public static final class RequisitosEntry implements BaseColumns {
+        public static final String TABLE_NAME = "Requisitos";
+        public static final String COLUMN_COD_MATERIA = "codMateria";
+        public static final String COLUMN_COD_REQUISITO = "codRequisito";
+
+    }
+
+    public static final class ConcluidoEntry implements BaseColumns {
+        public static final String TABLE_NAME = "Concluido";
+        public static final String COLUMN_COD_USEER  = "codUser";
+        public static final String COLUMN_COD_MATERIA = "codMateria";
+    }
+
 }

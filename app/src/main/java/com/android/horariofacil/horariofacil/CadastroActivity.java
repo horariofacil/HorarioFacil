@@ -44,10 +44,9 @@ public class CadastroActivity extends AppCompatActivity {
 
         // Iniciar Banco de Dados
         HorarioFacilBDHelper dbHelper = new HorarioFacilBDHelper(this);
-
         Log.i("Info BD", "Buscar BD");
         mDB = dbHelper.getWritableDatabase();
-        Log.i("Info BD", "BD OK");
+
         mNomeView = (EditText) findViewById(R.id.nome);
         mSobrenomeView = (EditText) findViewById(R.id.sobrenome);
         mSenhaView = (EditText) findViewById(R.id.senha);
@@ -71,7 +70,6 @@ public class CadastroActivity extends AppCompatActivity {
             }
         });
     }
-
 
     private void attemptCadastro() {
 
@@ -191,7 +189,6 @@ public class CadastroActivity extends AppCompatActivity {
         Log.i("Verificar Usuario", "Matricula e Email OK");
         return 0;
     }
-
 
     public class CadastroTask extends AsyncTask<Void, Void, Boolean> {
 

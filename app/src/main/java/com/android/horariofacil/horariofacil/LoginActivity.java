@@ -22,6 +22,8 @@ import android.widget.EditText;
 import com.android.horariofacil.horariofacil.Dados.HorarioFacilBDHelper;
 import com.android.horariofacil.horariofacil.Dados.HorarioFacilContract;
 
+import static com.android.horariofacil.horariofacil.R.id.matricula;
+
 /**
  * A login screen that offers login via matricula/password.
  */
@@ -53,17 +55,15 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
         // Set up the login form.
-        mMatriculaView = (AutoCompleteTextView) findViewById(R.id.matricula);
+        mMatriculaView = (AutoCompleteTextView) findViewById(matricula);
         mPasswordView = (EditText) findViewById(R.id.password);
 
-        Log.i("Info BD", "Iniciar BD");
-
         // Iniciar Banco de Dados
+        Log.i("Info BD", "Iniciar BD");
         HorarioFacilBDHelper dbHelper = new HorarioFacilBDHelper(this);
 
         Log.i("Info BD", "Buscar BD");
         mDB = dbHelper.getReadableDatabase();
-       // InsertMateria.insertDadosMateria(mDB);
 
 
         Button mSignInButton = (Button) findViewById(R.id.sign_in_button);
@@ -93,6 +93,15 @@ public class LoginActivity extends AppCompatActivity {
         Intent intentCadastro = new Intent(context, CadastroActivity);
 
         startActivity(intentCadastro);
+    }
+
+    private void startMain(String pMatricula){
+        Context context = LoginActivity.this;
+        Class MainActivity = com.android.horariofacil.horariofacil.MainActivity.class;
+
+        Intent intentMain = new Intent(context, MainActivity);
+        intentMain.putExtra("usuario", pMatricula);
+        startActivity(intentMain);
     }
 
     /**
@@ -224,7 +233,10 @@ public class LoginActivity extends AppCompatActivity {
             do {
                 if (mMatricula.equals(c.getString(c.getColumnIndexOrThrow(HorarioFacilContract.UsuarioEntry.COLUMN_MATRICULA)))) {
                     // Account exists, return true if the password matches.
-                    return mPassword.equals(c.getString(c.getColumnIndexOrThrow(HorarioFacilContract.UsuarioEntry.COLUMN_SENHA)));
+                    if (mPassword.equals(c.getString(c.getColumnIndexOrThrow(HorarioFacilContract.UsuarioEntry.COLUMN_SENHA)))){
+                        startMain(mMatricula);
+                        return true;
+                    }
                 }
                 c.moveToNext();
             } while (!c.isLast());
@@ -253,4 +265,3 @@ public class LoginActivity extends AppCompatActivity {
         }
     }
 }
-

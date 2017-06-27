@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c5e1a5">
+
+    <ExpandableListView
+        android:id="@+id/ex_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/icons" />
+
+    <Button
+        android:id="@+id/button_atualizar_lista"
+        style="?android:textAppearanceSmall"
+        android:background="@color/Button"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Atualizar"
+        android:textStyle="bold" />
+</LinearLayout>

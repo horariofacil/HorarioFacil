@@ -1,16 +1,19 @@
 <resources>
     <string name="app_name">Horario Facil</string>
+    <string name="name_cadastro">Cadastro</string>
 
-    <!-- Strings related to login -->
     <string name="prompt_matricula">Matricula</string>
     <string name="prompt_nome">Nome</string>
     <string name="prompt_sobrenome">Sobreome</string>
     <string name="prompt_confirmar_senha">Confirmar Senha</string>
     <string name="prompt_email">Email</string>
     <string name="prompt_passwd">Senha</string>
+    <string name="prompt_concluida_vazia">Nenhuma disciplina</string>
+
     <string name="action_sign_in_short">Entrar</string>
     <string name="action_cadastrar">Cadastrar</string>
     <string name="action_cadastro">Cadastre-se</string>
+
     <string name="error_matricula_already_exists">Matricula já Cadastrada</string>
     <string name="error_email_already_exists">Email já Cadastrado</string>
     <string name="error_invalid_email">Matricula invalida</string>
@@ -18,5 +21,10 @@
     <string name="error_incorrect_password">Senha incorrta</string>
     <string name="error_confirmar_senha">Senha e Confirmar senha diferentes</string>
     <string name="error_field_required">Campo Requerido</string>
-    <string name="name_cadastro">Cadastro</string>
+
+    <string-array name="header_titles">
+        <item>Disciplinas cursadas</item>
+        <item>Disciplinas disponíveis</item>
+        <item>Disciplinas a cursar</item>
+    </string-array>
 </resources>
