@@ -1,12 +1,12 @@
 package com.android.horariofacil.horariofacil;
 
+import android.content.ContentValues;
+import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
-import android.view.View;
-import android.widget.Button;
 import android.widget.ExpandableListView;
 
 import com.android.horariofacil.horariofacil.Dados.HorarioFacilBDHelper;
@@ -41,29 +41,20 @@ public class MainActivity extends AppCompatActivity {
 
         // Iniciar Banco de Dados
         HorarioFacilBDHelper dbHelper = new HorarioFacilBDHelper(this);
-        mDB = dbHelper.getReadableDatabase();
+        mDB = dbHelper.getWritableDatabase();
 
- /*       Intent intentMain = getIntent();
+        Intent intentMain = getIntent();
         if (intentMain.hasExtra("usuario"))
         usuario = intentMain.getStringExtra("usuario");
         else{
             Log.e("Erro Intent", "usuario nao encontrado");
             finish();
-        } */
-
-        usuario = "160047676";
-
-        Button mSignInButton = (Button) findViewById(R.id.button_atualizar_lista);
-        mSignInButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                checkBoxes();
-            }
-        });
+        }
 
         expandableListView = (ExpandableListView) findViewById(R.id.ex_listview);
 
         generateFields();
+
 
     }
 
@@ -252,7 +243,26 @@ public class MainActivity extends AppCompatActivity {
         return listaDis;
     }
 
-    private void checkBoxes(){
+    public void checkBoxes(boolean isCheked, String codMateria){
+        if(isCheked){
+            addMateriaConcluida(codMateria);
+        }
+        else{
+            removeMateriaConcluida(codMateria);
+        }
+        generateFields();
+    }
 
+    private void addMateriaConcluida(String codMateria){
+        ContentValues values = new ContentValues();
+        values.put(ConcluidoEntry.COLUMN_COD_USEER, usuario);
+        values.put(ConcluidoEntry.COLUMN_COD_MATERIA, codMateria);
+
+        mDB.insert(ConcluidoEntry.TABLE_NAME, null, values);
+    }
+    private void removeMateriaConcluida(String codMateria){
+        mDB.delete(ConcluidoEntry.TABLE_NAME,
+                ConcluidoEntry.COLUMN_COD_USEER + " = " + usuario + " AND "
+                        + ConcluidoEntry.COLUMN_COD_MATERIA + " = ?", new String[]{codMateria});
     }
 }

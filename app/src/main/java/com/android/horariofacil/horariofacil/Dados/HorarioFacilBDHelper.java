@@ -19,7 +19,7 @@ public class HorarioFacilBDHelper extends SQLiteOpenHelper{
     private static final String DATABASE_NAME = "horarioFacil.db";
 
     // If you change the database schema, you must increment the database version
-    private static final int DATABASE_VERSION = 2;
+    private static final int DATABASE_VERSION = 3;
 
     // Constructor
     public HorarioFacilBDHelper(Context context) {

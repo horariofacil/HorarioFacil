@@ -9,9 +9,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseExpandableListAdapter;
 import android.widget.CheckBox;
+import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.android.horariofacil.horariofacil.MainActivity;
 import com.android.horariofacil.horariofacil.R;
 
 import java.util.HashMap;
@@ -41,23 +43,6 @@ public class Listadapter extends BaseExpandableListAdapter {
         return header_titles.size();
     }
 
-    public void setCheckBoxChild(CheckBox checkBox, int groupPosition, int childPosition) {
-        if (getChildMateriaCod(groupPosition, childPosition).equals("000000"))
-            checkBox.setVisibility(View.GONE);
-        else{
-            switch (groupPosition) {
-                case 0:
-                    checkBox.setChecked(true);
-                    break;
-                case 1:
-                    checkBox.setChecked(false);
-                    break;
-                case 2:
-                    checkBox.setVisibility(View.GONE);
-                    break;
-            }
-        }
-    }
 
     @Override
     public int getChildrenCount(int groupPosition) {
@@ -138,10 +123,33 @@ public class Listadapter extends BaseExpandableListAdapter {
             }
         });
 
-        CheckBox checkBox = (CheckBox) convertView.findViewById(R.id.check_disciplina);
-        setCheckBoxChild(checkBox, groupPosition, childPosition);
+        final CheckBox checkBox = (CheckBox) convertView.findViewById(R.id.check_disciplina);
+        if (getChildMateriaCod(groupPosition, childPosition).equals("000000")){
+            checkBox.setChecked(true);
+            checkBox.setVisibility(View.GONE);
+        }
+        else{
+            switch (groupPosition) {
+                case 0:
+                    checkBox.setChecked(true);
+                    break;
+                case 1:
+                    checkBox.setChecked(false);
+                    break;
+                case 2:
+                    checkBox.setVisibility(View.GONE);
+                    break;
+            }
+        }
+        checkBox.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+                                                @Override
+                                                public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                                                    MainActivity mainActivity = new MainActivity();
+                                                    mainActivity.checkBoxes(isChecked, codMateriaText.getText().toString());
+                                                }
+                                            }
 
-
+        );
 
         return convertView;
     }
@@ -154,6 +162,7 @@ public class Listadapter extends BaseExpandableListAdapter {
         intentDescricao.putExtra("codMateria", codMateria);
         context.startActivity(intentDescricao);
     }
+
 
     @Override
     public boolean isChildSelectable(int groupPosition, int childPosition) {
